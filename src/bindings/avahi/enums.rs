@@ -136,6 +136,7 @@ pub enum AvahiPublishFlags {
 #[derive(Debug)]
 pub enum AvahiRecordClass {
     AVAHI_IN = 1,
+    Dummy
 }
 
 #[repr(C)]
